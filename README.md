@@ -1,3 +1,8 @@
+# What is this code?
+
+This is my first app written for RISC-V and Zephyr OS.
+Using PWM functionality to control on-board LED brightness.
+
 # How to build the code
 
 Launch a bash terminal.
@@ -23,7 +28,7 @@ Connect your HiFive 1 to PC USB connector.
   --openocd-config ~/freedom-e-sdk/bsp/sifive-hifive1/openocd.cfg
 ```
 
-# Environment
+# Dependencies
 
 - https://github.com/sifive/freedom-e-sdk/blob/v201908-branch/README.md
 - https://docs.zephyrproject.org/latest/getting_started/index.html (zephyr-sdk-0.10.3)

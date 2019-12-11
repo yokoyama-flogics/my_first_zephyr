@@ -22,3 +22,12 @@ Connect your HiFive 1 to PC USB connector.
   --gdb $RISCV_PATH/bin/riscv64-unknown-elf-gdb \
   --openocd-config ~/freedom-e-sdk/bsp/sifive-hifive1/openocd.cfg
 ```
+
+# Environment
+
+- https://github.com/sifive/freedom-e-sdk/blob/v201908-branch/README.md
+- https://docs.zephyrproject.org/latest/getting_started/index.html (zephyr-sdk-0.10.3)
+
+# My Blog
+
+- https://flogics.com/wp/ja/2019/12/building-hifive1-app-by-zephyr/ (Japanese)

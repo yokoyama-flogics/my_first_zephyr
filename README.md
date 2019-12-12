@@ -9,6 +9,9 @@ First, launch a bash terminal.
 Hereafter, we assume the following environment variables are defined as
 mentioned at SiFive freedom-e-sdk GitHub site.
 
+As mentioned below, some versions of OpenOCD is okay but others may fail.
+I used SiFive ``riscv-openocd-2018.7.0-x86_64-linux-ubuntu14``.
+
 - ``RISCV_OPENOCD_PATH``
 - ``RISCV_PATH``
 
@@ -68,6 +71,8 @@ If it failed, replacing
 
 - [SiFive freedom-e-sdk](https://github.com/sifive/freedom-e-sdk/blob/v201908-branch/README.md)
 - [Zephyr Project (zephyr-sdk-0.10.3)](https://docs.zephyrproject.org/latest/getting_started/index.html)
+- [Zephyr Project 2.1.99](https://docs.zephyrproject.org/latest/)
+- [SiFive OpenOCD 2018.7.0](wget https://static.dev.sifive.com/dev-tools/riscv-openocd-2018.7.0-x86_64-linux-ubuntu14.tar.gz)
 
 # My Blog
 

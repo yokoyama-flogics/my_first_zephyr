@@ -60,6 +60,10 @@ If you took the "west build" way.
 west flash
 ```
 
+If it failed, replacing
+~/zephyrproject/zephyr/boards/riscv/hifive1/support/openocd.cfg by
+~/freedom-e-sdk/bsp/sifive-hifive1/openocd.cfg may help.
+
 # Dependencies
 
 - [SiFive freedom-e-sdk](https://github.com/sifive/freedom-e-sdk/blob/v201908-branch/README.md)
